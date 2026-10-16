@@ -1,5 +1,6 @@
 {
     "name": "libdds",
+    "version": "1.0.1",
     "description": "DDS (DirectDraw Surface) decoder",
     "filters":["ddsdec"],
     "help": "This filter decodes BC1 to BC7 compressed DDS textures using bcdec.",
