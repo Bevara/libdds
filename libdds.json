@@ -1,6 +1,6 @@
 {
     "name": "libdds",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "DDS (DirectDraw Surface) decoder",
     "filters":["ddsdec"],
     "help": "This filter decodes BC1 to BC7 compressed DDS textures using bcdec.",
@@ -14,7 +14,7 @@
     "extension":{
       "dds" : "img"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "expired",
         "note": "S3TC/BCn texture compression",
